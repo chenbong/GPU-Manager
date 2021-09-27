@@ -10,7 +10,7 @@ import utils.comm as comm
 
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--config_file', type=str, default='/userhome/cbh/EXP/GPU_MANAGER_JOBS/config.yml')
+parser.add_argument('--config_file', type=str, default='./config.yml')
 args = parser.parse_args()
 
 
@@ -127,7 +127,7 @@ class GpuManager():
         for job_dir in self.waiting_jobs_dict:
             start_time_dt = datetime.datetime.strptime(self.waiting_jobs_dict[job_dir]['start_time'], date_fmt)
             self.waiting_jobs_dict[job_dir]['waiting_time'] = round((datetime.datetime.now() - start_time_dt).seconds / 3600, 4)
-            with open(os.path.join(self.waiting_jobs_dir, job_dir, 'config.yml'), 'r') as f:
+            with open(os.path.join(self.waiting_jobs_dir, job_dir, 'job_config.yml'), 'r') as f:
                 try:
                     job_config = yaml.load(f, Loader=yaml.FullLoader)
                 except:
@@ -142,12 +142,19 @@ class GpuManager():
     def send_jobs(self):
         for ip in self.machines_dict:
             for job_dir in self.waiting_jobs_dict:
+                machine_gpu_ids = self.machines_dict[ip]['gpu_ids']
                 machine_gpu_num = len(self.machines_dict[ip]['gpu_ids'])
                 machine_memory = self.machines_dict[ip]['memory']
                 job_gpu_num = self.waiting_jobs_dict[job_dir]['gpu_num']
                 job_memory = self.waiting_jobs_dict[job_dir]['memory']
                 if machine_gpu_num >= job_gpu_num and machine_memory >= job_memory:
                     now = datetime.datetime.now().strftime("%m%d-%H:%M:%S")
+                    cmd = ''
+                    print(machine_gpu_ids)
+                    visible_gpu_ids_str = ','.join(str(i) for i in machine_gpu_ids)
+                    cmd += f'export CUDA_VISIBLE_DEVICES={visible_gpu_ids_str};'
+                    print(cmd)
+
 
 
 
@@ -166,9 +173,8 @@ class GpuManager():
                     # else:
                     #     shutil.move(src, dst)
                     script_dir = os.path.join(dst, self.waiting_jobs_dict[job_dir]['script'])
-                    cmd = f"PATH=$PATH:/opt/conda/bin:/opt/conda/condabin:/userhome/cbh/DOWNLOAD/cuda/cuda/bin:/userhome/cbh/DOWNLOAD/cuda/cuda/bin; source activate;\
-                            cd '{os.path.dirname(script_dir)}';\
-                            nohup bash '{script_dir}' > nohup.log 2>&1 &"
+                    cmd += f"cd '{os.path.dirname(script_dir)}';\
+                            nohup bash '{script_dir}' > nohup.log 2>&1 &;"
                     stdout = self.machines_dict[ip]['ssh'].exec_cmd(cmd)
                     del self.waiting_jobs_dict[job_dir]
                     return
@@ -178,9 +184,9 @@ class GpuManager():
 
     def query_gpu_ids(self, ssh) -> list:
         def parse(line, qargs):
-            numberic_args = ['memory.free', 'memory.total', 'power.draw', 'power.limit']#可计数的参数
-            power_manage_enable=lambda v:(not 'Not Support' in v)#lambda表达式，显卡是否滋瓷power management（笔记本可能不滋瓷）
-            to_numberic=lambda v:float(v.upper().strip().replace('MIB','').replace('W',''))#带单位字符串去掉单位
+            numberic_args = ['memory.free', 'memory.total', 'power.draw', 'power.limit']    # 可计数的参数
+            power_manage_enable=lambda v:(not 'Not Support' in v)   # lambda表达式，显卡是否滋瓷power management（笔记本可能不滋瓷）
+            to_numberic=lambda v:float(v.upper().strip().replace('MIB','').replace('W',''))     # 带单位字符串去掉单位
             process = lambda k,v:((int(to_numberic(v)) if power_manage_enable(v) else 1) if k in numberic_args else v.strip())
             return {k:process(k,v) for k,v in zip(qargs,line.strip().split(','))}
         qargs =['index','gpu_name', 'memory.free', 'memory.total', 'power.draw', 'power.limit']

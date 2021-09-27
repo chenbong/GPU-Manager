@@ -1,0 +1,15 @@
+default_info: 
+  port: 22
+  username: root
+  password: ~
+  pkey_dir: /root/.ssh/id_rsa
+  waiting_jobs_dir: /userhome/cbh/EXP/GPU_MANAGER_JOBS/waiting_jobs
+  sended_jobs_dir: /userhome/cbh/EXP/GPU_MANAGER_JOBS/sended_jobs_dir
+  is_send_file: False
+  log_dir: /userhome/cbh/EXP/GPU_MANAGER_JOBS/
+  sleep: 300
+  pre_cmd: 
+
+machines_info:
+- ip: 10.177.210.49
+  name: 16-1         # dgx2
