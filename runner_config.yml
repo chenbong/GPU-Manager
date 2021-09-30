@@ -1,15 +1,25 @@
 default_info: 
   port: 22
-  username: root
+  username: cbh
   password: ~
-  pkey_dir: /root/.ssh/id_rsa
-  waiting_jobs_dir: /userhome/cbh/EXP/GPU_MANAGER_JOBS/waiting_jobs
-  sended_jobs_dir: /userhome/cbh/EXP/GPU_MANAGER_JOBS/sended_jobs_dir
-  is_send_file: False
-  log_dir: /userhome/cbh/EXP/GPU_MANAGER_JOBS/
+  pkey_dir: /home/cbh/.ssh/id_rsa
+  pre_cmd: ~
+  waiting_jobs_dir: /home/cbh/one/PROJECT/21.09/ssh_gpu_runner/0_WAITING_JOBS
+  sended_jobs_dir: /home/cbh/one/PROJECT/21.09/ssh_gpu_runner/1_SENDED_JOBS
+  is_send_file: true
+  log_dir: /home/cbh/one/PROJECT/21.09/ssh_gpu_runner
   sleep: 300
-  pre_cmd: 
 
 machines_info:
-- ip: 10.177.210.49
-  name: 16-1         # dgx2
+- ip: 10.24.82.14
+  name: mac14
+  pre_cmd: 'export PATH=/home/cbh/anaconda3/envs/py36/bin:$PATH'
+- ip: 10.24.82.18
+  name: mac18
+  pre_cmd: 'export PATH=/home/cbh/miniconda3/envs/py38/bin:$PATH'
+- ip: 10.24.82.22
+  name: mac22
+  pre_cmd: 'export PATH=/home/cbh/anaconda3/envs/py36/bin:$PATH'
+- ip: 10.24.82.79
+  name: mac79
+  pre_cmd: 'export PATH=/home/cbh/anaconda3/envs/py36/bin:$PATH'

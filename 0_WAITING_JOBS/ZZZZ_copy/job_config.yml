@@ -1,4 +1,4 @@
-gpu_num: 2
+gpu_num: 1
 port: random        # int, 'random'
 memory: 30       # imagenet1k: 300, imagenet100: 30
 script: train.sh

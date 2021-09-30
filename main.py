@@ -4,13 +4,14 @@ import os
 import yaml
 import argparse
 import shutil
+import psutil
 
 import utils.comm as comm
 
 
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--config_file', type=str, default='./config.yml')
+parser.add_argument('--config_file', type=str, default='./runner_config.yml')
 args = parser.parse_args()
 
 
@@ -97,6 +98,7 @@ class GpuManager():
             if ip not in self.machines_dict:
                 name = machine_info['name'] if 'name' in machine_info else None
                 port = machine_info['port'] if 'port' in machine_info else default_info['port']
+                pre_cmd = machine_info['pre_cmd'] if 'pre_cmd' in machine_info else default_info['pre_cmd']
                 username = machine_info['username'] if 'username' in machine_info else default_info['username']
                 password = machine_info['password'] if 'password' in machine_info else default_info['password']
                 pkey_dir = machine_info['pkey_dir'] if 'pkey' in machine_info else default_info['pkey_dir']
@@ -104,11 +106,13 @@ class GpuManager():
                 self.machines_dict[ip] = {}
                 self.machines_dict[ip]['name'] = name
                 self.machines_dict[ip]['port'] = port
+                self.machines_dict[ip]['pre_cmd'] = pre_cmd
                 self.machines_dict[ip]['username'] = username
                 self.machines_dict[ip]['password'] = password
                 self.machines_dict[ip]['pkey_dir'] = pkey_dir
                 self.machines_dict[ip]['ssh'] = comm.SSH(ip, port, username, password, pkey_dir)
                 self.machines_dict[ip]['memory'] = self.query_memory(self.machines_dict[ip]['ssh'])
+                
 
             self.machines_dict[ip]['gpu_ids'] = self.query_gpu_ids(self.machines_dict[ip]['ssh'])
 
@@ -117,6 +121,7 @@ class GpuManager():
         date_fmt = "%y-%m-%d %H:%M:%S"
         self.waiting_jobs_dir = default_info['waiting_jobs_dir']
         self.sended_jobs_dir = default_info['sended_jobs_dir']
+        self.is_send_file = default_info['is_send_file']
         self.waiting_jobs_dict = {}
 
         for job_dir in sorted(os.listdir(self.waiting_jobs_dir)):
@@ -149,32 +154,31 @@ class GpuManager():
                 job_memory = self.waiting_jobs_dict[job_dir]['memory']
                 if machine_gpu_num >= job_gpu_num and machine_memory >= job_memory:
                     now = datetime.datetime.now().strftime("%m%d-%H:%M:%S")
-                    cmd = ''
+                    cmd = f"{self.machines_dict[ip]['pre_cmd']};" if self.machines_dict[ip]['pre_cmd'] else ''
                     print(machine_gpu_ids)
                     visible_gpu_ids_str = ','.join(str(i) for i in machine_gpu_ids)
                     cmd += f'export CUDA_VISIBLE_DEVICES={visible_gpu_ids_str};'
-                    print(cmd)
-
-
-
 
                     src = os.path.join(self.waiting_jobs_dir, job_dir)
 
                     if 'copy' in job_dir:
                         dst = os.path.join(self.sended_jobs_dir, 'copy', f"{now}_{self.machines_dict[ip]['name']}_"+job_dir)
-                        shutil.copytree(src, dst)
+                        if self.is_send_file:
+                            self.machines_dict[ip]['ssh'].sftp_put_dir(src, dst)
+                        else:
+                            shutil.copytree(src, dst)
                     elif 'ctn' in job_dir:
                         continue
                     else:
                         dst = os.path.join(self.sended_jobs_dir, f"{now}_{self.machines_dict[ip]['name']}_"+job_dir)
-                        shutil.move(src, dst)
-                    # if 'copy' in src:
-                    #     shutil.copytree(src, dst)
-                    # else:
-                    #     shutil.move(src, dst)
+                        if self.is_send_file:
+                            self.machines_dict[ip]['ssh'].sftp_put_dir(src, dst)
+                            os.removedirs(src)
+                        else:
+                            shutil.move(src, dst)
                     script_dir = os.path.join(dst, self.waiting_jobs_dict[job_dir]['script'])
-                    cmd += f"cd '{os.path.dirname(script_dir)}';\
-                            nohup bash '{script_dir}' > nohup.log 2>&1 &;"
+                    cmd += f"cd '{os.path.dirname(script_dir)}';"
+                    cmd += f"nohup bash '{script_dir}' > nohup.log 2>&1 &"
                     stdout = self.machines_dict[ip]['ssh'].exec_cmd(cmd)
                     del self.waiting_jobs_dict[job_dir]
                     return
@@ -192,6 +196,7 @@ class GpuManager():
         qargs =['index','gpu_name', 'memory.free', 'memory.total', 'power.draw', 'power.limit']
         cmd = 'nvidia-smi --query-gpu={} --format=csv,noheader'.format(','.join(qargs))
         results = ssh.exec_cmd(cmd).split('\n')
+        print(results)
         gpu_info_list = [parse(line,qargs) for line in results]
         gpu_ids = []
         for gpu_info in gpu_info_list:
@@ -203,10 +208,10 @@ class GpuManager():
     def query_memory(self, ssh) -> float:
         if comm.is_docker():
             cmd = 'cat /sys/fs/cgroup/memory/memory.limit_in_bytes'
+            memory = float(ssh.exec_cmd(cmd))       # byte
         else:
-            raise NotImplementedError
-        stdout= ssh.exec_cmd(cmd)
-        return float(stdout) / 1024**3
+            memory = psutil.virtual_memory()[0]
+        return float(memory) / 1024**3
 
 
 gpu_manager = GpuManager(args.config_file)

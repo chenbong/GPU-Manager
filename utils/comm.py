@@ -2,6 +2,7 @@ import os
 import stat
 import paramiko
 import logging
+import time
 
 def is_docker():
     return os.path.exists('/.dockerenv')
@@ -77,7 +78,8 @@ class SSH(object):
 
     def exec_cmd(self, cmd):
         self._connect()
-        stdin, stdout, stderr = self.ssh.exec_command(cmd)
+        _, stdout, stderr = self.ssh.exec_command(cmd)
+
         res, err = stdout.read(), stderr.read()
         result = res if res else err
         self._close()

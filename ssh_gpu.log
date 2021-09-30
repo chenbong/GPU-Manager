@@ -1,0 +1,228 @@
+09/29 05:43:21 PM | {'10.24.82.18': {'name': 18, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7f45bcfccc70>, 'memory': 125.53231430053711, 'gpu_ids': ['0', '2', '3']}}
+09/29 05:43:54 PM | {'10.24.82.18': {'name': 18, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7f603fc64c70>, 'memory': 125.53231430053711, 'gpu_ids': ['0', '2', '3']}}
+09/29 05:43:54 PM | {'ZZZZ_ctn': {'start_time': '21-09-29 17:43:54', 'waiting_time': 0.0, 'gpu_num': 2, 'memory': 30, 'script': 'train.sh'}}
+09/29 05:45:18 PM | {'10.24.82.18': {'name': 18, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7f74ab1a4c70>, 'memory': 125.53231430053711, 'gpu_ids': ['0', '2', '3']}}
+09/29 05:45:18 PM | {'ZZZZ_ctn': {'start_time': '21-09-29 17:45:18', 'waiting_time': 0.0, 'gpu_num': 2, 'memory': 30, 'script': 'train.sh'}}
+09/29 05:46:07 PM | {'10.24.82.18': {'name': 18, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7f3484f1fc70>, 'memory': 125.53231430053711, 'gpu_ids': ['0', '2', '3']}}
+09/29 05:46:07 PM | {'ZZZZ_copy': {'start_time': '21-09-29 17:46:07', 'waiting_time': 0.0, 'gpu_num': 2, 'memory': 30, 'script': 'train.sh'}}
+09/29 05:47:08 PM | {'10.24.82.18': {'name': 18, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7fd8b5ca3c70>, 'memory': 125.53231430053711, 'gpu_ids': ['0', '2', '3']}}
+09/29 05:47:08 PM | {'ZZZZ_copy': {'start_time': '21-09-29 17:47:08', 'waiting_time': 0.0, 'gpu_num': 2, 'memory': 30, 'script': 'train.sh'}}
+09/29 05:49:02 PM | {'10.24.82.18': {'name': 18, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7f0ca0780c70>, 'memory': 125.53231430053711, 'gpu_ids': ['0', '2', '3']}}
+09/29 05:49:02 PM | {'ZZZZ_copy': {'start_time': '21-09-29 17:49:02', 'waiting_time': 0.0, 'gpu_num': 2, 'memory': 30, 'script': 'train.sh'}}
+09/29 05:49:21 PM | {'10.24.82.18': {'name': 18, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7f78e7887c70>, 'memory': 125.53231430053711, 'gpu_ids': ['0', '2', '3']}}
+09/29 05:49:21 PM | {'ZZZZ_copy': {'start_time': '21-09-29 17:49:21', 'waiting_time': 0.0, 'gpu_num': 2, 'memory': 30, 'script': 'train.sh'}}
+09/29 05:50:13 PM | {'10.24.82.18': {'name': 18, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7f78940abc70>, 'memory': 125.53231430053711, 'gpu_ids': ['0', '2', '3']}}
+09/29 05:50:13 PM | {'ZZZZ_copy': {'start_time': '21-09-29 17:50:13', 'waiting_time': 0.0, 'gpu_num': 2, 'memory': 30, 'script': 'train.sh'}}
+09/29 05:50:26 PM | {'10.24.82.18': {'name': 18, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7fa68faefc70>, 'memory': 125.53231430053711, 'gpu_ids': ['0', '2', '3']}}
+09/29 05:50:26 PM | {'ZZZZ_copy': {'start_time': '21-09-29 17:50:26', 'waiting_time': 0.0, 'gpu_num': 2, 'memory': 30, 'script': 'train.sh'}}
+09/29 05:51:29 PM | {'10.24.82.18': {'name': 18, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7f1681375c70>, 'memory': 125.53231430053711, 'gpu_ids': ['0', '2', '3']}}
+09/29 05:51:29 PM | {'ZZZZ_copy': {'start_time': '21-09-29 17:51:29', 'waiting_time': 0.0, 'gpu_num': 2, 'memory': 30, 'script': 'train.sh'}}
+09/29 05:53:09 PM | {'10.24.82.18': {'name': 18, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7f72cd882c70>, 'memory': 125.53231430053711, 'gpu_ids': ['0', '2', '3']}}
+09/29 05:53:09 PM | {'ZZZZ_copy': {'start_time': '21-09-29 17:53:09', 'waiting_time': 0.0, 'gpu_num': 2, 'memory': 30, 'script': 'train.sh'}}
+09/29 05:53:43 PM | {'10.24.82.18': {'name': 18, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7f6c8adc6c70>, 'memory': 125.53231430053711, 'gpu_ids': ['0', '2', '3']}}
+09/29 05:53:43 PM | {'ZZZZ_copy': {'start_time': '21-09-29 17:53:43', 'waiting_time': 0.0, 'gpu_num': 2, 'memory': 30, 'script': 'train.sh'}}
+09/29 05:54:19 PM | {'10.24.82.18': {'name': 18, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7f873669ec70>, 'memory': 125.53231430053711, 'gpu_ids': ['0', '2', '3']}}
+09/29 05:54:19 PM | {'ZZZZ_copy': {'start_time': '21-09-29 17:54:19', 'waiting_time': 0.0, 'gpu_num': 2, 'memory': 30, 'script': 'train.sh'}}
+09/29 05:55:20 PM | {'10.24.82.18': {'name': 18, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7f5c78c72c70>, 'memory': 125.53231430053711, 'gpu_ids': ['0', '2', '3']}}
+09/29 05:55:20 PM | {'ZZZZ_copy': {'start_time': '21-09-29 17:55:20', 'waiting_time': 0.0, 'gpu_num': 2, 'memory': 30, 'script': 'train.sh'}}
+09/29 05:55:46 PM | {'10.24.82.18': {'name': 18, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7f4de1943c70>, 'memory': 125.53231430053711, 'gpu_ids': ['0', '2', '3']}}
+09/29 05:55:46 PM | {'ZZZZ_copy': {'start_time': '21-09-29 17:55:46', 'waiting_time': 0.0, 'gpu_num': 2, 'memory': 30, 'script': 'train.sh'}}
+09/29 05:57:38 PM | {'10.24.82.18': {'name': 18, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7fc570b07ca0>, 'memory': 125.53231430053711, 'gpu_ids': ['0', '2', '3']}}
+09/29 05:57:38 PM | {'ZZZZ_copy': {'start_time': '21-09-29 17:57:38', 'waiting_time': 0.0, 'gpu_num': 2, 'memory': 30, 'script': 'train.sh'}}
+09/29 05:58:09 PM | {'10.24.82.18': {'name': 18, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7fd490f41ca0>, 'memory': 125.53231430053711, 'gpu_ids': ['0', '2', '3']}}
+09/29 05:58:09 PM | {'ZZZZ_copy': {'start_time': '21-09-29 17:58:09', 'waiting_time': 0.0, 'gpu_num': 2, 'memory': 30, 'script': 'train.sh'}}
+09/29 06:00:05 PM | {'10.24.82.18': {'name': 18, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7f64a6d1dca0>, 'memory': 125.53231430053711, 'gpu_ids': ['0', '2', '3']}}
+09/29 06:00:05 PM | {'ZZZZ_copy': {'start_time': '21-09-29 18:00:05', 'waiting_time': 0.0, 'gpu_num': 2, 'memory': 30, 'script': 'train.sh'}}
+09/29 06:00:32 PM | {'10.24.82.18': {'name': 18, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7fd1204cfca0>, 'memory': 125.53231430053711, 'gpu_ids': ['0', '2', '3']}}
+09/29 06:00:32 PM | {'ZZZZ_copy': {'start_time': '21-09-29 18:00:32', 'waiting_time': 0.0, 'gpu_num': 2, 'memory': 30, 'script': 'train.sh'}}
+09/29 06:01:34 PM | {'10.24.82.18': {'name': 18, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7fa402c30ca0>, 'memory': 125.53231430053711, 'gpu_ids': ['0', '2', '3']}}
+09/29 06:01:34 PM | {'ZZZZ_copy': {'start_time': '21-09-29 18:01:34', 'waiting_time': 0.0, 'gpu_num': 2, 'memory': 30, 'script': 'train.sh'}}
+09/29 06:01:48 PM | {'10.24.82.18': {'name': 18, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7f037c8bfca0>, 'memory': 125.53231430053711, 'gpu_ids': ['0', '2', '3']}}
+09/29 06:01:48 PM | {'ZZZZ_copy': {'start_time': '21-09-29 18:01:48', 'waiting_time': 0.0, 'gpu_num': 2, 'memory': 30, 'script': 'train.sh'}}
+09/29 06:03:26 PM | {'10.24.82.18': {'name': 18, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7fa09f50eca0>, 'memory': 125.53231430053711, 'gpu_ids': ['0', '2', '3']}}
+09/29 06:03:26 PM | {'ZZZZ_copy': {'start_time': '21-09-29 18:03:26', 'waiting_time': 0.0, 'gpu_num': 2, 'memory': 30, 'script': 'train.sh'}}
+09/29 06:04:02 PM | {'10.24.82.18': {'name': 18, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7fe1fbf44ca0>, 'memory': 125.53231430053711, 'gpu_ids': ['0', '2', '3']}}
+09/29 06:04:02 PM | {'ZZZZ_copy': {'start_time': '21-09-29 18:04:02', 'waiting_time': 0.0, 'gpu_num': 2, 'memory': 30, 'script': 'train.sh'}}
+09/29 06:04:28 PM | {'10.24.82.18': {'name': 18, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7fb03b0beca0>, 'memory': 125.53231430053711, 'gpu_ids': ['0', '2', '3']}}
+09/29 06:04:28 PM | {'ZZZZ_copy': {'start_time': '21-09-29 18:04:28', 'waiting_time': 0.0, 'gpu_num': 2, 'memory': 30, 'script': 'train.sh'}}
+09/29 06:04:45 PM | {'10.24.82.18': {'name': 18, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7f61a53c5ca0>, 'memory': 125.53231430053711, 'gpu_ids': ['0', '2', '3']}}
+09/29 06:04:45 PM | {'ZZZZ_copy': {'start_time': '21-09-29 18:04:45', 'waiting_time': 0.0, 'gpu_num': 2, 'memory': 30, 'script': 'train.sh'}}
+09/29 06:05:09 PM | {'10.24.82.18': {'name': 18, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7f01c7397ca0>, 'memory': 125.53231430053711, 'gpu_ids': ['0', '2', '3']}}
+09/29 06:05:09 PM | {'ZZZZ_copy': {'start_time': '21-09-29 18:05:09', 'waiting_time': 0.0, 'gpu_num': 2, 'memory': 30, 'script': 'train.sh'}}
+09/29 06:05:38 PM | {'10.24.82.18': {'name': 18, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7f176fa57ca0>, 'memory': 125.53231430053711, 'gpu_ids': ['0', '2', '3']}}
+09/29 06:05:38 PM | {'ZZZZ_copy': {'start_time': '21-09-29 18:05:38', 'waiting_time': 0.0, 'gpu_num': 2, 'memory': 30, 'script': 'train.sh'}}
+09/29 06:07:42 PM | {'10.24.82.18': {'name': 18, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7f354be4dca0>, 'memory': 125.53231430053711, 'gpu_ids': ['0', '2', '3']}}
+09/29 06:07:42 PM | {'ZZZZ_copy': {'start_time': '21-09-29 18:07:42', 'waiting_time': 0.0, 'gpu_num': 2, 'memory': 30, 'script': 'train.sh'}}
+09/29 06:08:04 PM | {'10.24.82.18': {'name': 18, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7f21f821fca0>, 'memory': 125.53231430053711, 'gpu_ids': ['0', '2', '3']}}
+09/29 06:08:04 PM | {'ZZZZ_copy': {'start_time': '21-09-29 18:08:04', 'waiting_time': 0.0, 'gpu_num': 2, 'memory': 30, 'script': 'train.sh'}}
+09/29 06:08:28 PM | {'10.24.82.18': {'name': 18, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7fbee3753ca0>, 'memory': 125.53231430053711, 'gpu_ids': ['0', '2', '3']}}
+09/29 06:08:28 PM | {'ZZZZ_copy': {'start_time': '21-09-29 18:08:28', 'waiting_time': 0.0, 'gpu_num': 2, 'memory': 30, 'script': 'train.sh'}}
+09/29 06:10:29 PM | {'10.24.82.18': {'name': 18, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7fe02642aca0>, 'memory': 125.53231430053711, 'gpu_ids': ['0', '2', '3']}}
+09/29 06:10:29 PM | {'ZZZZ_copy': {'start_time': '21-09-29 18:10:29', 'waiting_time': 0.0, 'gpu_num': 2, 'memory': 30, 'script': 'train.sh'}}
+09/29 07:55:11 PM | {'10.24.82.18': {'name': 18, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7f0883a2aca0>, 'memory': 125.53231430053711, 'gpu_ids': ['0']}}
+09/29 07:56:38 PM | {'10.24.82.18': {'name': 18, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7fd807fdfca0>, 'memory': 125.53231430053711, 'gpu_ids': ['0']}}
+09/29 07:56:38 PM | {'ZZZZ_copy': {'start_time': '21-09-29 19:56:38', 'waiting_time': 0.0, 'gpu_num': 2, 'memory': 30, 'script': 'train.sh'}}
+09/29 07:57:38 PM | {'10.24.82.18': {'name': 18, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7f46880caca0>, 'memory': 125.53231430053711, 'gpu_ids': ['0']}}
+09/29 07:57:38 PM | {'ZZZZ_copy': {'start_time': '21-09-29 19:57:38', 'waiting_time': 0.0, 'gpu_num': 1, 'memory': 30, 'script': 'train.sh'}}
+09/29 07:57:58 PM | {'10.24.82.18': {'name': 18, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7fd36a9c9ca0>, 'memory': 125.53231430053711, 'gpu_ids': ['0']}}
+09/29 07:57:58 PM | {'ZZZZ_copy': {'start_time': '21-09-29 19:57:58', 'waiting_time': 0.0, 'gpu_num': 1, 'memory': 30, 'script': 'train.sh'}}
+09/29 07:58:57 PM | {'10.24.82.18': {'name': 18, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7fb593c0cca0>, 'memory': 125.53231430053711, 'gpu_ids': ['0']}}
+09/29 07:58:57 PM | {'ZZZZ_copy': {'start_time': '21-09-29 19:58:57', 'waiting_time': 0.0, 'gpu_num': 1, 'memory': 30, 'script': 'train.sh'}}
+09/29 08:05:37 PM | {'10.24.82.18': {'name': 18, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7ff031f97ca0>, 'memory': 125.53231430053711, 'gpu_ids': ['0']}}
+09/29 08:05:37 PM | {'ZZZZ_copy': {'start_time': '21-09-29 20:05:37', 'waiting_time': 0.0, 'gpu_num': 1, 'memory': 30, 'script': 'train.sh'}}
+09/29 08:27:12 PM | {'10.24.82.18': {'name': 18, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7fa56be12cd0>, 'memory': 125.53231430053711, 'gpu_ids': ['0']}}
+09/29 08:27:12 PM | {'ZZZZ_copy': {'start_time': '21-09-29 20:27:12', 'waiting_time': 0.0, 'gpu_num': 1, 'memory': 30, 'script': 'train.sh'}}
+09/29 08:30:24 PM | {'10.24.82.18': {'name': 18, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7f0ac6b21cd0>, 'memory': 125.53231430053711, 'gpu_ids': ['0']}}
+09/29 08:30:24 PM | {'ZZZZ_copy': {'start_time': '21-09-29 20:30:24', 'waiting_time': 0.0, 'gpu_num': 1, 'memory': 30, 'script': 'train.sh'}}
+09/29 08:42:59 PM | {'10.24.82.18': {'name': 18, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7f8fb34e0cd0>, 'memory': 125.53231430053711, 'gpu_ids': ['0']}}
+09/29 08:42:59 PM | {'ZZZZ_copy': {'start_time': '21-09-29 20:42:59', 'waiting_time': 0.0, 'gpu_num': 1, 'memory': 30, 'script': 'train.sh'}}
+09/29 08:43:48 PM | {'10.24.82.18': {'name': 18, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7fbc61396cd0>, 'memory': 125.53231430053711, 'gpu_ids': ['0']}}
+09/29 08:43:48 PM | {'ZZZZ_copy': {'start_time': '21-09-29 20:43:48', 'waiting_time': 0.0, 'gpu_num': 1, 'memory': 30, 'script': 'train.sh'}}
+09/29 08:43:57 PM | {'10.24.82.18': {'name': 18, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7f11c58cbcd0>, 'memory': 125.53231430053711, 'gpu_ids': ['0']}}
+09/29 08:43:57 PM | {'ZZZZ_copy': {'start_time': '21-09-29 20:43:57', 'waiting_time': 0.0, 'gpu_num': 1, 'memory': 30, 'script': 'train.sh'}}
+09/29 08:44:46 PM | {'10.24.82.18': {'name': 18, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7f17ba62ccd0>, 'memory': 125.53231430053711, 'gpu_ids': ['0']}}
+09/29 08:44:46 PM | {'ZZZZ_copy': {'start_time': '21-09-29 20:44:46', 'waiting_time': 0.0, 'gpu_num': 1, 'memory': 30, 'script': 'train.sh'}}
+09/29 08:45:08 PM | {'10.24.82.18': {'name': 18, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7fc0f1c40cd0>, 'memory': 125.53231430053711, 'gpu_ids': ['0']}}
+09/29 08:45:08 PM | {'ZZZZ_copy': {'start_time': '21-09-29 20:45:08', 'waiting_time': 0.0, 'gpu_num': 1, 'memory': 30, 'script': 'train.sh'}}
+09/29 08:45:46 PM | {'10.24.82.18': {'name': 18, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7f5da4cedcd0>, 'memory': 125.53231430053711, 'gpu_ids': ['0']}}
+09/29 08:45:46 PM | {'ZZZZ_copy': {'start_time': '21-09-29 20:45:46', 'waiting_time': 0.0, 'gpu_num': 1, 'memory': 30, 'script': 'train.sh'}}
+09/29 08:46:14 PM | {'10.24.82.18': {'name': 18, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7f4b8251acd0>, 'memory': 125.53231430053711, 'gpu_ids': ['0']}}
+09/29 08:46:14 PM | {'ZZZZ_copy': {'start_time': '21-09-29 20:46:14', 'waiting_time': 0.0, 'gpu_num': 1, 'memory': 30, 'script': 'train.sh'}}
+09/29 08:46:48 PM | {'10.24.82.18': {'name': 18, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7f59b0648cd0>, 'memory': 125.53231430053711, 'gpu_ids': ['0']}}
+09/29 08:46:48 PM | {'ZZZZ_copy': {'start_time': '21-09-29 20:46:48', 'waiting_time': 0.0, 'gpu_num': 1, 'memory': 30, 'script': 'train.sh'}}
+09/29 08:47:11 PM | {'10.24.82.18': {'name': 18, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7f9ee7c9ccd0>, 'memory': 125.53231430053711, 'gpu_ids': ['0']}}
+09/29 08:47:11 PM | {'ZZZZ_copy': {'start_time': '21-09-29 20:47:11', 'waiting_time': 0.0, 'gpu_num': 1, 'memory': 30, 'script': 'train.sh'}}
+09/29 08:48:22 PM | {'10.24.82.18': {'name': 18, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7fdee7436cd0>, 'memory': 125.53231430053711, 'gpu_ids': ['0']}}
+09/29 08:48:22 PM | {'ZZZZ_copy': {'start_time': '21-09-29 20:48:22', 'waiting_time': 0.0, 'gpu_num': 1, 'memory': 30, 'script': 'train.sh'}}
+09/29 08:48:56 PM | {'10.24.82.18': {'name': 18, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7f3f61d9fcd0>, 'memory': 125.53231430053711, 'gpu_ids': []}}
+09/29 08:48:56 PM | {'ZZZZ_copy': {'start_time': '21-09-29 20:48:56', 'waiting_time': 0.0, 'gpu_num': 1, 'memory': 30, 'script': 'train.sh'}}
+09/29 08:49:16 PM | {'10.24.82.18': {'name': 18, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7fc32cfbecd0>, 'memory': 125.53231430053711, 'gpu_ids': ['0']}}
+09/29 08:49:16 PM | {'ZZZZ_copy': {'start_time': '21-09-29 20:49:16', 'waiting_time': 0.0, 'gpu_num': 1, 'memory': 30, 'script': 'train.sh'}}
+09/29 08:49:38 PM | {'10.24.82.18': {'name': 18, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7f9e3f483cd0>, 'memory': 125.53231430053711, 'gpu_ids': ['0']}}
+09/29 08:49:38 PM | {'ZZZZ_copy': {'start_time': '21-09-29 20:49:38', 'waiting_time': 0.0, 'gpu_num': 1, 'memory': 30, 'script': 'train.sh'}}
+09/29 08:50:01 PM | {'10.24.82.18': {'name': 18, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7f47ab47ecd0>, 'memory': 125.53231430053711, 'gpu_ids': ['0']}}
+09/29 08:50:01 PM | {'ZZZZ_copy': {'start_time': '21-09-29 20:50:01', 'waiting_time': 0.0, 'gpu_num': 1, 'memory': 30, 'script': 'train.sh'}}
+09/29 08:50:38 PM | {'10.24.82.18': {'name': 18, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7f182c185cd0>, 'memory': 125.53231430053711, 'gpu_ids': ['0']}}
+09/29 08:50:38 PM | {'ZZZZ_copy': {'start_time': '21-09-29 20:50:38', 'waiting_time': 0.0, 'gpu_num': 1, 'memory': 30, 'script': 'train.sh'}}
+09/29 08:50:55 PM | {'10.24.82.18': {'name': 18, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7f46f3a6fcd0>, 'memory': 125.53231430053711, 'gpu_ids': ['0']}}
+09/29 08:50:55 PM | {'ZZZZ_copy': {'start_time': '21-09-29 20:50:55', 'waiting_time': 0.0, 'gpu_num': 1, 'memory': 30, 'script': 'train.sh'}}
+09/29 08:51:11 PM | {'10.24.82.18': {'name': 18, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7f7e6949dcd0>, 'memory': 125.53231430053711, 'gpu_ids': ['0']}}
+09/29 08:51:11 PM | {'ZZZZ_copy': {'start_time': '21-09-29 20:51:11', 'waiting_time': 0.0, 'gpu_num': 1, 'memory': 30, 'script': 'train.sh'}}
+09/29 08:51:30 PM | {'10.24.82.18': {'name': 18, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7f6fe6781cd0>, 'memory': 125.53231430053711, 'gpu_ids': ['0']}}
+09/29 08:51:30 PM | {'ZZZZ_copy': {'start_time': '21-09-29 20:51:30', 'waiting_time': 0.0, 'gpu_num': 1, 'memory': 30, 'script': 'train.sh'}}
+09/29 08:52:29 PM | {'10.24.82.18': {'name': 18, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7fb3954cccd0>, 'memory': 125.53231430053711, 'gpu_ids': ['0']}}
+09/29 08:52:29 PM | {'ZZZZ_copy': {'start_time': '21-09-29 20:52:29', 'waiting_time': 0.0, 'gpu_num': 1, 'memory': 30, 'script': 'train.sh'}}
+09/29 08:55:32 PM | {'10.24.82.18': {'name': 18, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7fd846e3dcd0>, 'memory': 125.53231430053711, 'gpu_ids': ['0']}}
+09/29 08:55:42 PM | {'10.24.82.18': {'name': 18, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7f2e55e66cd0>, 'memory': 125.53231430053711, 'gpu_ids': ['0']}}
+09/29 08:55:53 PM | {'10.24.82.18': {'name': 18, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7f188e74ecd0>, 'memory': 125.53231430053711, 'gpu_ids': ['0']}}
+09/29 08:55:59 PM | {'10.24.82.18': {'name': 18, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7f0a03c47cd0>, 'memory': 125.53231430053711, 'gpu_ids': ['0']}}
+09/29 08:59:36 PM | {'10.24.82.18': {'name': 18, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7f24e9b97ca0>, 'memory': 125.53231430053711, 'gpu_ids': ['0']}}
+09/29 08:59:36 PM | {'ZZZZ_copy': {'start_time': '21-09-29 20:59:36', 'waiting_time': 0.0, 'gpu_num': 1, 'memory': 30, 'script': 'train.sh'}}
+09/29 08:59:53 PM | {'10.24.82.18': {'name': 18, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7fdd805e4ca0>, 'memory': 125.53231430053711, 'gpu_ids': ['0']}}
+09/29 08:59:53 PM | {'ZZZZ_copy': {'start_time': '21-09-29 20:59:53', 'waiting_time': 0.0, 'gpu_num': 1, 'memory': 30, 'script': 'train.sh'}}
+09/29 09:00:31 PM | {'10.24.82.14': {'name': 14, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7f38b0128ca0>, 'memory': 125.53231430053711, 'gpu_ids': ['0', '1']}}
+09/29 09:00:31 PM | {'ZZZZ_copy': {'start_time': '21-09-29 21:00:31', 'waiting_time': 0.0, 'gpu_num': 1, 'memory': 30, 'script': 'train.sh'}}
+09/29 09:01:09 PM | {'10.24.82.14': {'name': 14, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7fdbc1ea7ca0>, 'memory': 125.53231430053711, 'gpu_ids': ['0', '1']}}
+09/29 09:01:09 PM | {'ZZZZ_copy': {'start_time': '21-09-29 21:01:09', 'waiting_time': 0.0, 'gpu_num': 1, 'memory': 30, 'script': 'train.sh'}}
+09/29 09:01:31 PM | {'10.24.82.14': {'name': 14, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7ff933d6aca0>, 'memory': 125.53231430053711, 'gpu_ids': ['0', '1']}}
+09/29 09:01:31 PM | {'ZZZZ_copy': {'start_time': '21-09-29 21:01:31', 'waiting_time': 0.0, 'gpu_num': 1, 'memory': 30, 'script': 'train.sh'}}
+09/29 09:03:28 PM | {'10.24.82.14': {'name': 14, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7f417ca3cca0>, 'memory': 125.53231430053711, 'gpu_ids': ['0', '1']}}
+09/29 09:03:28 PM | {'ZZZZ_copy': {'start_time': '21-09-29 21:03:28', 'waiting_time': 0.0, 'gpu_num': 1, 'memory': 30, 'script': 'train.sh'}}
+09/29 09:04:30 PM | {'10.24.82.18': {'name': 18, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7fcdbec1fca0>, 'memory': 125.53231430053711, 'gpu_ids': ['0']}}
+09/29 09:04:30 PM | {'ZZZZ_copy': {'start_time': '21-09-29 21:04:30', 'waiting_time': 0.0, 'gpu_num': 1, 'memory': 30, 'script': 'train.sh'}}
+09/29 09:05:02 PM | {'10.24.82.18': {'name': 18, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7f7929f7eca0>, 'memory': 125.53231430053711, 'gpu_ids': ['0']}}
+09/29 09:05:02 PM | {'ZZZZ_copy': {'start_time': '21-09-29 21:05:02', 'waiting_time': 0.0, 'gpu_num': 1, 'memory': 30, 'script': 'train.sh'}}
+09/29 09:25:02 PM | {'10.24.82.18': {'name': 18, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7f82723d6ca0>, 'memory': 125.53231430053711, 'gpu_ids': []}}
+09/29 09:25:02 PM | {'ZZZZ_copy': {'start_time': '21-09-29 21:25:02', 'waiting_time': 0.0, 'gpu_num': 1, 'memory': 30, 'script': 'train.sh'}}
+09/29 09:25:30 PM | {'10.24.82.14': {'name': 14, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7f2a9a363ca0>, 'memory': 125.53231430053711, 'gpu_ids': ['0', '1']}}
+09/29 09:25:30 PM | {'ZZZZ_copy': {'start_time': '21-09-29 21:25:30', 'waiting_time': 0.0, 'gpu_num': 1, 'memory': 30, 'script': 'train.sh'}}
+09/29 09:26:09 PM | {'10.24.82.14': {'name': 14, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7f4f89591ca0>, 'memory': 125.53231430053711, 'gpu_ids': ['0', '1']}}
+09/29 09:26:09 PM | {'ZZZZ_copy': {'start_time': '21-09-29 21:26:09', 'waiting_time': 0.0, 'gpu_num': 1, 'memory': 30, 'script': 'train.sh'}}
+09/29 09:26:23 PM | {'10.24.82.14': {'name': 14, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7fc670840ca0>, 'memory': 125.53231430053711, 'gpu_ids': ['0', '1']}}
+09/29 09:26:23 PM | {'ZZZZ_copy': {'start_time': '21-09-29 21:26:23', 'waiting_time': 0.0, 'gpu_num': 1, 'memory': 30, 'script': 'train.sh'}}
+09/29 09:27:34 PM | {'10.24.82.14': {'name': 14, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7f922a229ca0>, 'memory': 125.53231430053711, 'gpu_ids': ['0', '1']}}
+09/29 09:27:34 PM | {'ZZZZ_copy': {'start_time': '21-09-29 21:27:34', 'waiting_time': 0.0, 'gpu_num': 1, 'memory': 30, 'script': 'train.sh'}}
+09/29 09:27:49 PM | {'10.24.82.14': {'name': 14, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7f4238d56ca0>, 'memory': 125.53231430053711, 'gpu_ids': ['0', '1']}}
+09/29 09:27:49 PM | {'ZZZZ_copy': {'start_time': '21-09-29 21:27:49', 'waiting_time': 0.0, 'gpu_num': 1, 'memory': 30, 'script': 'train.sh'}}
+09/29 09:28:56 PM | {'10.24.82.14': {'name': 14, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7f32798f06a0>, 'memory': 125.53231430053711, 'gpu_ids': ['0', '1']}}
+09/29 09:28:56 PM | {'ZZZZ_copy': {'start_time': '21-09-29 21:28:56', 'waiting_time': 0.0, 'gpu_num': 1, 'memory': 30, 'script': 'train.sh'}}
+09/29 09:29:43 PM | {'10.24.82.14': {'name': 14, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7f711b8f0cd0>, 'memory': 125.53231430053711, 'gpu_ids': ['0', '1']}}
+09/29 09:29:43 PM | {'ZZZZ_copy': {'start_time': '21-09-29 21:29:43', 'waiting_time': 0.0, 'gpu_num': 1, 'memory': 30, 'script': 'train.sh'}}
+09/29 09:33:31 PM | {'10.24.82.14': {'name': 14, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7fb3a1404cd0>, 'memory': 125.53231430053711, 'gpu_ids': ['0', '1']}}
+09/29 09:33:31 PM | {'ZZZZ_copy': {'start_time': '21-09-29 21:33:31', 'waiting_time': 0.0, 'gpu_num': 1, 'memory': 30, 'script': 'train.sh'}}
+09/29 09:35:30 PM | {'10.24.82.14': {'name': 14, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7feb0a9846a0>, 'memory': 125.53231430053711, 'gpu_ids': ['0', '1']}}
+09/29 09:35:30 PM | {'ZZZZ_copy': {'start_time': '21-09-29 21:35:30', 'waiting_time': 0.0, 'gpu_num': 1, 'memory': 30, 'script': 'train.sh'}}
+09/29 09:35:42 PM | {'10.24.82.14': {'name': 14, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7fab8525acd0>, 'memory': 125.53231430053711, 'gpu_ids': ['0', '1']}}
+09/29 09:35:42 PM | {'ZZZZ_copy': {'start_time': '21-09-29 21:35:42', 'waiting_time': 0.0, 'gpu_num': 1, 'memory': 30, 'script': 'train.sh'}}
+09/29 09:35:55 PM | {'10.24.82.14': {'name': 14, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7f641f767cd0>, 'memory': 125.53231430053711, 'gpu_ids': ['0', '1']}}
+09/29 09:35:55 PM | {'ZZZZ_copy': {'start_time': '21-09-29 21:35:55', 'waiting_time': 0.0, 'gpu_num': 1, 'memory': 30, 'script': 'train.sh'}}
+09/29 09:37:06 PM | {'10.24.82.14': {'name': 14, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7fa8308b3cd0>, 'memory': 125.53231430053711, 'gpu_ids': ['0', '1']}}
+09/29 09:37:06 PM | {'ZZZZ_copy': {'start_time': '21-09-29 21:37:06', 'waiting_time': 0.0, 'gpu_num': 1, 'memory': 30, 'script': 'train.sh'}}
+09/29 09:37:23 PM | {'10.24.82.14': {'name': 14, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7f14990facd0>, 'memory': 125.53231430053711, 'gpu_ids': ['0', '1']}}
+09/29 09:37:23 PM | {'ZZZZ_copy': {'start_time': '21-09-29 21:37:23', 'waiting_time': 0.0, 'gpu_num': 1, 'memory': 30, 'script': 'train.sh'}}
+09/29 09:37:49 PM | {'10.24.82.14': {'name': 14, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7feebef00cd0>, 'memory': 125.53231430053711, 'gpu_ids': ['0', '1']}}
+09/29 09:37:49 PM | {'ZZZZ_copy': {'start_time': '21-09-29 21:37:49', 'waiting_time': 0.0, 'gpu_num': 1, 'memory': 30, 'script': 'train.sh'}}
+09/29 09:40:39 PM | {'10.24.82.14': {'name': 14, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7f487d8efd00>, 'memory': 125.53231430053711, 'gpu_ids': ['0', '1']}}
+09/29 09:40:39 PM | {'ZZZZ_copy': {'start_time': '21-09-29 21:40:39', 'waiting_time': 0.0, 'gpu_num': 1, 'memory': 30, 'script': 'train.sh'}}
+09/29 09:40:56 PM | {'10.24.82.14': {'name': 14, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7f54b83a8d00>, 'memory': 125.53231430053711, 'gpu_ids': ['0', '1']}}
+09/29 09:40:56 PM | {'ZZZZ_copy': {'start_time': '21-09-29 21:40:56', 'waiting_time': 0.0, 'gpu_num': 1, 'memory': 30, 'script': 'train.sh'}}
+09/29 09:41:15 PM | {'10.24.82.14': {'name': 14, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7f4222d08d00>, 'memory': 125.53231430053711, 'gpu_ids': ['0', '1']}}
+09/29 09:41:15 PM | {'ZZZZ_copy': {'start_time': '21-09-29 21:41:15', 'waiting_time': 0.0, 'gpu_num': 1, 'memory': 30, 'script': 'train.sh'}}
+09/29 09:41:50 PM | {'10.24.82.14': {'name': 14, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7ffaabe96d00>, 'memory': 125.53231430053711, 'gpu_ids': ['0', '1']}}
+09/29 09:41:50 PM | {'ZZZZ_copy': {'start_time': '21-09-29 21:41:50', 'waiting_time': 0.0, 'gpu_num': 1, 'memory': 30, 'script': 'train.sh'}}
+09/29 09:43:32 PM | {'10.24.82.14': {'name': 14, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7f1d6403e6d0>, 'memory': 125.53231430053711, 'gpu_ids': ['0', '1']}}
+09/29 09:43:32 PM | {'ZZZZ_copy': {'start_time': '21-09-29 21:43:32', 'waiting_time': 0.0, 'gpu_num': 1, 'memory': 30, 'script': 'train.sh'}}
+09/29 09:43:47 PM | {'10.24.82.14': {'name': 14, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7fa52776cd00>, 'memory': 125.53231430053711, 'gpu_ids': ['0', '1']}}
+09/29 09:43:47 PM | {'ZZZZ_copy': {'start_time': '21-09-29 21:43:47', 'waiting_time': 0.0, 'gpu_num': 1, 'memory': 30, 'script': 'train.sh'}}
+09/29 09:44:17 PM | {'10.24.82.14': {'name': 14, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7f85c686ad00>, 'memory': 125.53231430053711, 'gpu_ids': ['0', '1']}}
+09/29 09:44:17 PM | {'ZZZZ_copy': {'start_time': '21-09-29 21:44:17', 'waiting_time': 0.0, 'gpu_num': 1, 'memory': 30, 'script': 'train.sh'}}
+09/29 09:48:30 PM | {'10.24.82.14': {'name': 14, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7fd12a9cccd0>, 'memory': 125.53231430053711, 'gpu_ids': ['0', '1']}}
+09/29 09:48:30 PM | {'ZZZZ_copy': {'start_time': '21-09-29 21:48:30', 'waiting_time': 0.0, 'gpu_num': 1, 'memory': 30, 'script': 'train.sh'}}
+09/29 09:49:01 PM | {'10.24.82.14': {'name': 14, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7f82a6578cd0>, 'memory': 125.53231430053711, 'gpu_ids': ['0', '1']}}
+09/29 09:49:01 PM | {'ZZZZ_copy': {'start_time': '21-09-29 21:49:01', 'waiting_time': 0.0, 'gpu_num': 1, 'memory': 30, 'script': 'train.sh'}}
+09/29 09:49:12 PM | {'10.24.82.14': {'name': 14, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7ff056948cd0>, 'memory': 125.53231430053711, 'gpu_ids': ['0', '1']}}
+09/29 09:49:12 PM | {'ZZZZ_copy': {'start_time': '21-09-29 21:49:12', 'waiting_time': 0.0, 'gpu_num': 1, 'memory': 30, 'script': 'train.sh'}}
+09/29 09:54:04 PM | {'10.24.82.14': {'name': 14, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7feb6c856cd0>, 'memory': 125.53231430053711, 'gpu_ids': ['0', '1']}}
+09/29 09:54:04 PM | {'ZZZZ_copy': {'start_time': '21-09-29 21:54:04', 'waiting_time': 0.0, 'gpu_num': 1, 'memory': 30, 'script': 'train.sh'}}
+09/29 09:54:25 PM | {'10.24.82.14': {'name': 14, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7f2d82345cd0>, 'memory': 125.53231430053711, 'gpu_ids': ['0', '1']}}
+09/29 09:54:25 PM | {'ZZZZ_copy': {'start_time': '21-09-29 21:54:25', 'waiting_time': 0.0, 'gpu_num': 1, 'memory': 30, 'script': 'train.sh'}}
+09/29 10:07:22 PM | {'10.24.82.14': {'name': 14, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7fbbbe2b4cd0>, 'memory': 125.53231430053711, 'gpu_ids': ['0', '1']}}
+09/29 10:07:23 PM | {'ZZZZ_copy': {'start_time': '21-09-29 22:07:22', 'waiting_time': 0.0003, 'gpu_num': 1, 'memory': 30, 'script': 'train.sh'}}
+09/29 10:07:41 PM | {'10.24.82.14': {'name': 14, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7f735cb9bcd0>, 'memory': 125.53231430053711, 'gpu_ids': ['0', '1']}}
+09/29 10:07:41 PM | {'ZZZZ_copy': {'start_time': '21-09-29 22:07:41', 'waiting_time': 0.0, 'gpu_num': 1, 'memory': 30, 'script': 'train.sh'}}
+09/29 10:08:47 PM | {'10.24.82.14': {'name': 14, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7f2fb62aacd0>, 'memory': 125.53231430053711, 'gpu_ids': ['0', '1']}}
+09/29 10:08:47 PM | {'ZZZZ_copy': {'start_time': '21-09-29 22:08:47', 'waiting_time': 0.0, 'gpu_num': 1, 'memory': 30, 'script': 'train.sh'}}
+09/29 10:19:13 PM | {'10.24.82.14': {'name': 14, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7f3ac4da96a0>, 'memory': 125.53231430053711, 'gpu_ids': ['0', '1']}}
+09/29 10:19:13 PM | {'ZZZZ_copy': {'start_time': '21-09-29 22:19:13', 'waiting_time': 0.0, 'gpu_num': 1, 'memory': 30, 'script': 'train.sh'}}
+09/29 10:19:39 PM | {'10.24.82.14': {'name': 14, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7f8291a2dcd0>, 'memory': 125.53231430053711, 'gpu_ids': ['0', '1']}}
+09/29 10:19:39 PM | {'ZZZZ_copy': {'start_time': '21-09-29 22:19:39', 'waiting_time': 0.0, 'gpu_num': 1, 'memory': 30, 'script': 'train.sh'}}
+09/29 10:19:56 PM | {'10.24.82.14': {'name': 14, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7feea2798cd0>, 'memory': 125.53231430053711, 'gpu_ids': ['0', '1']}}
+09/29 10:19:56 PM | {'ZZZZ_copy': {'start_time': '21-09-29 22:19:56', 'waiting_time': 0.0, 'gpu_num': 1, 'memory': 30, 'script': 'train.sh'}}
+09/29 10:20:11 PM | {'10.24.82.14': {'name': 14, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7fe4a314ccd0>, 'memory': 125.53231430053711, 'gpu_ids': ['0', '1']}}
+09/29 10:20:11 PM | {'ZZZZ_copy': {'start_time': '21-09-29 22:20:11', 'waiting_time': 0.0, 'gpu_num': 1, 'memory': 30, 'script': 'train.sh'}}
+09/29 10:20:41 PM | {'10.24.82.14': {'name': 14, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7facc441fcd0>, 'memory': 125.53231430053711, 'gpu_ids': ['0', '1']}}
+09/29 10:20:41 PM | {'ZZZZ_copy': {'start_time': '21-09-29 22:20:41', 'waiting_time': 0.0, 'gpu_num': 1, 'memory': 30, 'script': 'train.sh'}}
+09/29 10:23:10 PM | {'10.24.82.14': {'name': 14, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7fbb49d5c6a0>, 'memory': 125.53231430053711, 'gpu_ids': ['0', '1']}}
+09/29 10:23:10 PM | {'ZZZZ_copy': {'start_time': '21-09-29 22:23:10', 'waiting_time': 0.0, 'gpu_num': 1, 'memory': 30, 'script': 'train.sh'}}
+09/29 10:23:23 PM | {'10.24.82.14': {'name': 14, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7f8b38f31ca0>, 'memory': 125.53231430053711, 'gpu_ids': ['0', '1']}}
+09/29 10:23:23 PM | {'ZZZZ_copy': {'start_time': '21-09-29 22:23:23', 'waiting_time': 0.0, 'gpu_num': 1, 'memory': 30, 'script': 'train.sh'}}
+09/29 10:27:41 PM | {'10.24.82.14': {'name': 14, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7f48cec706a0>, 'memory': 125.53231430053711, 'gpu_ids': ['0', '1']}}
+09/29 10:27:41 PM | {'ZZZZ_copy': {'start_time': '21-09-29 22:27:41', 'waiting_time': 0.0, 'gpu_num': 1, 'memory': 30, 'script': 'train.sh'}}
+09/29 10:58:56 PM | {'10.24.82.14': {'name': 14, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7fa46cc56c70>, 'memory': 125.53231430053711, 'gpu_ids': ['0', '1']}}
+09/29 10:58:56 PM | {'ZZZZ_copy': {'start_time': '21-09-29 22:58:56', 'waiting_time': 0.0, 'gpu_num': 1, 'memory': 30, 'script': 'train.sh'}}
+09/29 11:00:14 PM | {'10.24.82.14': {'name': 14, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7f95b8e92c70>, 'memory': 125.53231430053711, 'gpu_ids': ['0', '1']}}
+09/29 11:00:14 PM | {'ZZZZ_copy': {'start_time': '21-09-29 23:00:14', 'waiting_time': 0.0, 'gpu_num': 1, 'memory': 30, 'script': 'train.sh'}}
+09/29 11:05:45 PM | {'10.24.82.14': {'name': 14, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7fdaecc78c70>, 'memory': 125.53231430053711, 'gpu_ids': ['0', '1']}}
+09/29 11:05:45 PM | {'ZZZZ_copy': {'start_time': '21-09-29 23:05:45', 'waiting_time': 0.0, 'gpu_num': 1, 'memory': 30, 'script': 'train.sh'}}
+09/29 11:11:33 PM | {'10.24.82.14': {'name': 14, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7fc469dafc70>, 'memory': 125.53231430053711, 'gpu_ids': ['0', '1']}}
+09/29 11:11:33 PM | {'ZZZZ_copy': {'start_time': '21-09-29 23:11:33', 'waiting_time': 0.0, 'gpu_num': 1, 'memory': 30, 'script': 'train.sh'}}
+09/29 11:13:22 PM | {'10.24.82.14': {'name': 14, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7efd682f1c70>, 'memory': 125.53231430053711, 'gpu_ids': ['0', '1']}}
+09/29 11:13:22 PM | {'ZZZZ_copy': {'start_time': '21-09-29 23:13:22', 'waiting_time': 0.0, 'gpu_num': 1, 'memory': 30, 'script': 'train.sh'}}
+09/29 11:13:39 PM | {'10.24.82.14': {'name': 14, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7f4c0ec5ec70>, 'memory': 125.53231430053711, 'gpu_ids': ['0', '1']}}
+09/29 11:13:39 PM | {'ZZZZ_copy': {'start_time': '21-09-29 23:13:39', 'waiting_time': 0.0, 'gpu_num': 1, 'memory': 30, 'script': 'train.sh'}}
+09/29 11:14:08 PM | {'10.24.82.14': {'name': 14, 'port': 22, 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7f46936fdc70>, 'memory': 125.53231430053711, 'gpu_ids': ['0', '1']}}
+09/29 11:14:08 PM | {'ZZZZ_copy': {'start_time': '21-09-29 23:14:08', 'waiting_time': 0.0, 'gpu_num': 1, 'memory': 30, 'script': 'train.sh'}}
+09/29 11:24:58 PM | {'10.24.82.14': {'name': 14, 'port': 22, 'pre_cmd': 'export PATH=/home/cbh/anaconda3/envs/py36/bin:$PATH', 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7f0cc247ec70>, 'memory': 125.53231430053711, 'gpu_ids': ['0', '1']}}
+09/29 11:24:58 PM | {'ZZZZ_copy': {'start_time': '21-09-29 23:24:58', 'waiting_time': 0.0, 'gpu_num': 1, 'memory': 30, 'script': 'train.sh'}}
+09/30 11:08:27 AM | {'10.24.82.14': {'name': 'mac14', 'port': 22, 'pre_cmd': 'export PATH=/home/cbh/anaconda3/envs/py36/bin:$PATH', 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7f1c2a0ea910>, 'memory': 125.53231430053711, 'gpu_ids': ['0', '1']}, '10.24.82.18': {'name': 'mac18', 'port': 22, 'pre_cmd': 'export PATH=/home/cbh/miniconda3/envs/py38/bin:$PATH', 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7f1c295baa00>, 'memory': 125.53231430053711, 'gpu_ids': ['0', '1', '3']}, '10.24.82.22': {'name': 'mac22', 'port': 22, 'pre_cmd': 'export PATH=/home/cbh/anaconda3/envs/py36/bin:$PATH', 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7f1c29570100>, 'memory': 125.53231430053711, 'gpu_ids': []}, '10.24.82.79': {'name': 'mac79', 'port': 22, 'pre_cmd': 'export PATH=/home/cbh/anaconda3/envs/py36/bin:$PATH', 'username': 'cbh', 'password': None, 'pkey_dir': '/home/cbh/.ssh/id_rsa', 'ssh': <utils.comm.SSH object at 0x7f1c29585d90>, 'memory': 125.53231430053711, 'gpu_ids': []}}
+09/30 11:08:27 AM | {'ZZZZ_copy': {'start_time': '21-09-30 11:08:27', 'waiting_time': 0.0, 'gpu_num': 1, 'memory': 30, 'script': 'train.sh'}}
