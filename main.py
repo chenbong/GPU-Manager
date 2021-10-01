@@ -121,7 +121,6 @@ class GpuManager():
         date_fmt = "%y-%m-%d %H:%M:%S"
         self.waiting_jobs_dir = default_info['waiting_jobs_dir']
         self.sended_jobs_dir = default_info['sended_jobs_dir']
-        self.is_send_file = default_info['is_send_file']
         self.waiting_jobs_dict = {}
 
         for job_dir in sorted(os.listdir(self.waiting_jobs_dir)):
@@ -141,6 +140,9 @@ class GpuManager():
             self.waiting_jobs_dict[job_dir]['gpu_num'] = job_config['gpu_num']
             self.waiting_jobs_dict[job_dir]['memory'] = job_config['memory']
             self.waiting_jobs_dict[job_dir]['script'] = job_config['script']
+            self.waiting_jobs_dict[job_dir]['port'] = job_config['port']
+            self.waiting_jobs_dict[job_dir]['send_src'] = job_config['send_src']
+            self.waiting_jobs_dict[job_dir]['rm_src'] = job_config['rm_src']
         logger.info(self.waiting_jobs_dict)
         # exit()
         
@@ -161,21 +163,13 @@ class GpuManager():
 
                     src = os.path.join(self.waiting_jobs_dir, job_dir)
 
-                    if 'copy' in job_dir:
-                        dst = os.path.join(self.sended_jobs_dir, 'copy', f"{now}_{self.machines_dict[ip]['name']}_"+job_dir)
-                        if self.is_send_file:
-                            self.machines_dict[ip]['ssh'].sftp_put_dir(src, dst)
-                        else:
-                            shutil.copytree(src, dst)
-                    elif 'ctn' in job_dir:
-                        continue
-                    else:
+                    if self.waiting_jobs_dict[job_dir]['send_src']:
                         dst = os.path.join(self.sended_jobs_dir, f"{now}_{self.machines_dict[ip]['name']}_"+job_dir)
-                        if self.is_send_file:
-                            self.machines_dict[ip]['ssh'].sftp_put_dir(src, dst)
-                            os.removedirs(src)
-                        else:
-                            shutil.move(src, dst)
+                        self.machines_dict[ip]['ssh'].sftp_put_dir(src, dst)
+                        if self.waiting_jobs_dict[job_dir]['rm_src']:
+                            shutil.rmtree(src)
+                    else:
+                        continue
                     script_dir = os.path.join(dst, self.waiting_jobs_dict[job_dir]['script'])
                     cmd += f"cd '{os.path.dirname(script_dir)}';"
                     cmd += f"nohup bash '{script_dir}' > nohup.log 2>&1 &"

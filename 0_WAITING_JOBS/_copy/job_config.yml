@@ -2,3 +2,5 @@ gpu_num: 1
 port: random        # int, 'random'
 memory: 30       # imagenet1k: 300, imagenet100: 30
 script: train.sh
+send_src: True
+rm_src: False
