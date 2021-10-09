@@ -4,21 +4,22 @@ default_info:
   password: ~
   pkey_dir: /home/cbh/.ssh/id_rsa
   pre_cmd: ~
-  waiting_jobs_dir: /home/cbh/one/PROJECT/21.09/ssh_gpu_runner/0_WAITING_JOBS
-  sended_jobs_dir: /home/cbh/one/PROJECT/21.09/ssh_gpu_runner/1_SENDED_JOBS
-  log_dir: /home/cbh/one/PROJECT/21.09/ssh_gpu_runner
+  waiting_jobs_dir: /media/disk1/cbh/EXP/SSH_RUNNER_JOBS/1_WAITING_JOBS
+  sended_jobs_dir: /media/disk1/cbh/EXP/SSH_RUNNER_JOBS/2_SENDED_JOBS
+  log_dir: /media/disk1/cbh/EXP/SSH_RUNNER_JOBS
   sleep: 300
 
 machines_info:
 # - ip: 10.24.82.14
 #   name: mac14
-#   pre_cmd: 'export PATH=/home/cbh/anaconda3/envs/py36/bin:$PATH'
+#   pre_cmd: 'export PATH=/home/cbh/anaconda3/envs/py38/bin:$PATH'
 - ip: 10.24.82.18
   name: mac18
   pre_cmd: 'export PATH=/home/cbh/miniconda3/envs/py38/bin:$PATH'
 # - ip: 10.24.82.22
 #   name: mac22
-#   pre_cmd: 'export PATH=/home/cbh/anaconda3/envs/py36/bin:$PATH'
-# - ip: 10.24.82.79
-#   name: mac79
-#   pre_cmd: 'export PATH=/home/cbh/anaconda3/envs/py36/bin:$PATH'
+#   pre_cmd: 'export PATH=/home/cbh/anaconda3/envs/py38/bin:$PATH'
+
+- ip: 10.24.82.79
+  name: mac79
+  pre_cmd: 'export PATH=/home/cbh/anaconda3/envs/py38/bin:$PATH'
