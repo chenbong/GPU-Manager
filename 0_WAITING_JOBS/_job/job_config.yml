@@ -1,6 +1,17 @@
-gpu_num: 1
-port: random        # int, 'random'
-memory: 30       # imagenet1k: 300, imagenet100: 30
-script: train.sh
-send_src: False
+job_gpu_num: 4
+job_port: False
+job_memory: 30       # imagenet1k: 300, imagenet100: 30
+job_per_gpu_memory: 5000
+script: test.sh
+
+# job
+send_src: True
+rm_src: True
+
+# copy
+send_src: True
 rm_src: False
+
+# continue
+send_src: False
+rm_src: ~
