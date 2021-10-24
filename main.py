@@ -65,7 +65,9 @@ class GpuManager():
         while True:
             self.init_update_info(config_file)
             self.send_jobs()
-            print(f'sleep {sleep}s...')
+            now = datetime.datetime.now().strftime("%m/%d %H:%M:%S")
+
+            print(f'{now}, sleep {sleep}s...')
             time.sleep(sleep)
 
 
@@ -172,7 +174,7 @@ class GpuManager():
                         stdout = self.machines_dict[ip]['ssh'].exec_cmd(cmd)
                         del self.waiting_jobs_dict[job_dir]
 
-                        logger.info(f'Sended: ip:{ip}, job_dir:{job_dir}, CUDA_VISIBLE_DEVICES:{visible_gpu_ids_str}, job_port:{job_port}')
+                        logger.info(f"Sended: ip:{ip}, name:{self.machines_dict[ip]['name']}, job_dir:{job_dir}, CUDA_VISIBLE_DEVICES:{visible_gpu_ids_str}, JOB_PORT:{job_port}")
                         return
             except:
                 # print("Unexpected error:", sys.exc_info())

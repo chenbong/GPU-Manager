@@ -59,7 +59,8 @@ def is_port_in_use(port, host='127.0.0.1'):
 def get_logger(file_path):
     """ Make python logger """
     # [!] Since tensorboardX use default logger (e.g. logging.info()), we should use custom logger
-    os.remove(file_path)
+    if os.path.exists(file_path):
+        os.remove(file_path)
     logger = logging.getLogger('SSH')
     log_format = '%(asctime)s | %(message)s'
     formatter = logging.Formatter(log_format, datefmt='%m/%d %I:%M:%S %p')

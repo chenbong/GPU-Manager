@@ -4,14 +4,14 @@ job_memory: 30       # imagenet1k: 300, imagenet100: 30
 job_per_gpu_memory: 5000
 script: test.sh
 
-# job
-send_src: True
-rm_src: True
+# # job
+# send_src: True
+# rm_src: True
 
-# copy
-send_src: True
+# # copy
+send_src: False
 rm_src: False
 
-# continue
-send_src: False
-rm_src: ~
+# # continue
+# send_src: False
+# rm_src: ~
